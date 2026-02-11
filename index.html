@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- SEO -->
+  <title>StopMyCancer — Your Cancer. Explained. Supported. Navigated.</title>
+  <meta name="description" content="StopMyCancer is a free, clinically-grounded cancer guide. Understand your pathology report, navigate diagnosis and treatment, and find answers at 2am. Female-first. Evidence-based. No false promises.">
+  <meta name="keywords" content="cancer guide, pathology report translator, cancer explained, breast cancer, cancer navigation, cancer support, oncology, female cancer, cancer terms explained, cancer staging">
+  <meta name="author" content="StopMyCancer">
+  <link rel="canonical" href="https://stopmycancer.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="StopMyCancer — Your Cancer. Explained. Supported. Navigated.">
+  <meta property="og:description" content="Free, clinically-grounded cancer guide. Translate your pathology report into plain language. Evidence-based. Female-first. No false promises.">
+  <meta property="og:url" content="https://stopmycancer.com/">
+  <meta property="og:site_name" content="StopMyCancer">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=1200&h=630&fit=crop">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="StopMyCancer — Your Cancer. Explained. Supported. Navigated.">
+  <meta name="twitter:description" content="Free, clinically-grounded cancer guide with a pathology report translator. Evidence-based. Female-first.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=1200&h=630&fit=crop">
+
+  <!-- AEO / Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "StopMyCancer",
+    "url": "https://stopmycancer.com",
+    "description": "A clinically-grounded, plain-language cancer guide — built to help women and families understand, navigate, and advocate through diagnosis and treatment without misinformation.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://stopmycancer.com/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    },
+    "inLanguage": ["en", "es", "fr"]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "StopMyCancer",
+    "url": "https://stopmycancer.com",
+    "description": "Free, global, female-first cancer navigation and education. Evidence-based. No false promises.",
+    "sameAs": []
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is a pathology report?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A pathology report is a medical document that describes the results of examining tissue samples under a microscope. It includes information about the type of cancer, grade, stage, biomarkers, and surgical margins. This report helps your oncologist determine the best treatment approach."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does ER positive mean in breast cancer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ER positive (estrogen receptor positive) means the cancer cells have receptors for the hormone estrogen, which may help the cancer cells grow. This is important because hormone therapy drugs may be effective in treating ER-positive breast cancers. About 70-80% of breast cancers are ER positive."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does HER2 negative mean?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "HER2 negative means the cancer cells do not overproduce the HER2 protein. While HER2-targeted therapies would not be used, many other effective treatment options exist. Your oncologist will recommend the best approach based on your full pathology profile."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is StopMyCancer a replacement for medical advice?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. StopMyCancer is an educational resource that helps you understand cancer terminology and navigate the healthcare system. It does not provide medical advice, diagnose conditions, or recommend treatments. Always consult your healthcare team for medical decisions."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Hreflang for multilingual SEO -->
+  <link rel="alternate" hreflang="en" href="https://stopmycancer.com/">
+  <link rel="alternate" hreflang="es" href="https://stopmycancer.com/es/">
+  <link rel="alternate" hreflang="fr" href="https://stopmycancer.com/fr/">
+  <link rel="alternate" hreflang="x-default" href="https://stopmycancer.com/">
+
+  <!-- Preconnect & Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://images.unsplash.com">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/css/styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>">
+</head>
+<body>
+
+  <!-- Skip Link -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="header" role="banner">
+    <div class="header__inner">
+      <a href="/" class="header__logo" aria-label="StopMyCancer Home">
+        <div class="header__logo-icon" aria-hidden="true">S</div>
+        Stop<span>My</span>Cancer
+      </a>
+
+      <nav class="header__nav" role="navigation" aria-label="Main navigation">
+        <a href="/cancers/" class="header__nav-link">Cancer Types</a>
+        <a href="/navigate/" class="header__nav-link">Navigate</a>
+        <a href="/stories/" class="header__nav-link">Stories</a>
+        <a href="/access/" class="header__nav-link">Access &amp; Equity</a>
+        <a href="/tools/pathology-translator" class="header__nav-link">Translator Tool</a>
+        <a href="/about/" class="header__nav-link">About</a>
+      </nav>
+
+      <div class="header__actions">
+        <div class="lang-switcher">
+          <button class="lang-switcher__btn" aria-haspopup="true" aria-expanded="false" aria-label="Change language">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+            EN
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"></path></svg>
+          </button>
+          <div class="lang-switcher__dropdown" role="menu">
+            <a href="/" class="lang-switcher__option lang-switcher__option--active" role="menuitem">English</a>
+            <a href="/es/" class="lang-switcher__option" role="menuitem">Español</a>
+            <a href="/fr/" class="lang-switcher__option" role="menuitem">Français</a>
+          </div>
+        </div>
+
+        <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span class="mobile-toggle__line"></span>
+          <span class="mobile-toggle__line"></span>
+          <span class="mobile-toggle__line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation -->
+  <nav class="mobile-nav" id="mobile-nav" role="navigation" aria-label="Mobile navigation">
+    <a href="/cancers/" class="mobile-nav__link">Cancer Types</a>
+    <a href="/navigate/" class="mobile-nav__link">Navigate</a>
+    <a href="/stories/" class="mobile-nav__link">Stories</a>
+    <a href="/access/" class="mobile-nav__link">Access &amp; Equity</a>
+    <a href="/tools/pathology-translator" class="mobile-nav__link">Pathology Translator</a>
+    <a href="/about/" class="mobile-nav__link">About</a>
+    <div class="mobile-nav__lang">
+      <div class="mobile-nav__lang-title">Language</div>
+      <div class="mobile-nav__lang-options">
+        <a href="/" class="mobile-nav__lang-btn mobile-nav__lang-btn--active">EN</a>
+        <a href="/es/" class="mobile-nav__lang-btn">ES</a>
+        <a href="/fr/" class="mobile-nav__lang-btn">FR</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main">
+
+    <!-- ==================== HERO ==================== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg-pattern" aria-hidden="true"></div>
+      <div class="container hero__content">
+        <div class="hero__grid">
+          <div class="fade-in">
+            <div class="hero__badge">
+              <span class="hero__badge-dot" aria-hidden="true"></span>
+              Free &amp; Evidence-Based
+            </div>
+            <h1 class="hero__title">
+              Your cancer.<br>
+              <span class="hero__title-highlight">Explained. Supported. Navigated.</span>
+            </h1>
+            <p class="hero__subtitle">
+              A clinically-grounded, plain-language cancer guide — built to help women and families understand, navigate, and advocate through diagnosis and treatment. No false promises. No misinformation.
+            </p>
+            <div class="hero__ctas">
+              <a href="/tools/pathology-translator" class="btn btn--primary btn--lg">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+                Translate My Report
+              </a>
+              <a href="#pillars" class="btn btn--secondary btn--lg">
+                Explore the Guide
+              </a>
+            </div>
+            <div class="hero__trust">
+              <div class="hero__trust-item">
+                <svg class="hero__trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                Evidence-based
+              </div>
+              <div class="hero__trust-item">
+                <svg class="hero__trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                3 Languages
+              </div>
+              <div class="hero__trust-item">
+                <svg class="hero__trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                Female-first
+              </div>
+              <div class="hero__trust-item">
+                <svg class="hero__trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                100% Free
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__visual fade-in" style="transition-delay: 0.2s;">
+            <div class="hero__translator-preview">
+              <div class="hero__translator-header">
+                <svg class="hero__translator-header-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+                <h3>Pathology Report Translator</h3>
+              </div>
+              <div class="hero__translator-body">
+                <textarea id="mini-translator-input" class="hero__translator-input" placeholder="Paste a section of your pathology report here..." aria-label="Paste your pathology report text"></textarea>
+                <div class="hero__translator-actions">
+                  <button id="mini-translator-btn" class="btn btn--primary btn--sm">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                    Translate
+                  </button>
+                </div>
+                <p class="hero__translator-sample">
+                  No report? <a href="/tools/pathology-translator">Try a sample report</a>
+                </p>
+              </div>
+            </div>
+            <div class="hero__float-badge hero__float-badge--top" aria-hidden="true">
+              <div class="hero__float-stat">50+</div>
+              <div class="hero__float-label">Terms explained</div>
+            </div>
+            <div class="hero__float-badge hero__float-badge--bottom" aria-hidden="true">
+              <div class="hero__float-stat">3</div>
+              <div class="hero__float-label">Languages</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SAFETY NOTICE ==================== -->
+    <section class="section" style="padding-top: 0; padding-bottom: var(--space-xl);">
+      <div class="container">
+        <div class="safety-banner fade-in">
+          <svg class="safety-banner__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+          <div class="safety-banner__text">
+            <strong>Not medical advice.</strong> StopMyCancer is an educational resource. It does not diagnose, predict outcomes, or replace your care team. If you experience severe symptoms — sudden pain, difficulty breathing, high fever, or bleeding — <strong>seek emergency medical care immediately</strong>.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== HOW IT WORKS ==================== -->
+    <section class="section section--alt" id="how-it-works">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__label">How It Works</span>
+          <h2 class="section__title">Understand Your Report in 3 Steps</h2>
+          <p class="section__desc">Our Pathology Report Translator turns confusing medical jargon into clear, plain-language explanations you can actually use.</p>
+        </div>
+        <div class="steps">
+          <div class="step fade-in">
+            <div class="step__number">1</div>
+            <div class="step__content">
+              <h3 class="step__title">Paste Your Report</h3>
+              <p class="step__desc">Copy any section from your pathology report and paste it into our translator. Your text is processed entirely in your browser — nothing is sent to a server.</p>
+            </div>
+          </div>
+          <div class="step fade-in" style="transition-delay: 0.1s;">
+            <div class="step__number">2</div>
+            <div class="step__content">
+              <h3 class="step__title">Get Plain-Language Explanations</h3>
+              <p class="step__desc">We identify staging terms, biomarkers, grades, and procedures in your report and explain each one in clear, non-medical language.</p>
+            </div>
+          </div>
+          <div class="step fade-in" style="transition-delay: 0.2s;">
+            <div class="step__number">3</div>
+            <div class="step__content">
+              <h3 class="step__title">Prepare for Your Appointment</h3>
+              <p class="step__desc">Based on your report, we generate a personalized list of questions to bring to your next doctor visit. Walk in informed and ready to advocate.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 4 PILLARS ==================== -->
+    <section class="section" id="pillars">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__label">The Four Pillars</span>
+          <h2 class="section__title">Everything You Need, Nothing You Don't</h2>
+          <p class="section__desc">StopMyCancer is built on four foundations — each designed to inform, support, and empower without misinformation.</p>
+        </div>
+        <div class="pillars">
+          <div class="pillar pillar--encyclopedia fade-in">
+            <div class="pillar__icon" aria-hidden="true">📖</div>
+            <h3 class="pillar__title">Medical Encyclopedia</h3>
+            <p class="pillar__desc">Plain-language, evidence-based guides to cancer types, staging, biomarkers, treatments, side effects, and more. Every claim cited. Every page reviewed.</p>
+            <div class="pillar__features">
+              <div class="pillar__feature">
+                <svg class="pillar__feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Cancer types — breast, lung, ovarian, cervical, and more</span>
+              </div>
+              <div class="pillar__feature">
+                <svg class="pillar__feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Staging, grading, and biomarker explainers</span>
+              </div>
+              <div class="pillar__feature">
+                <svg class="pillar__feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Surgery, chemo, radiation, immunotherapy guides</span>
+              </div>
+              <div class="pillar__feature">
+                <svg class="pillar__feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Fertility, menopause, mental health, and pain management</span>
+              </div>
+            </div>
+            <div style="margin-top: var(--space-lg);">
+              <a href="/cancers/" class="card__link">
+                Explore cancer types
+                <svg class="card__link-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="pillar pillar--stories fade-in" style="transition-delay: 0.1s;">
+            <div class="pillar__icon" aria-hidden="true">💬</div>
+            <h3 class="pillar__title">Human Stories</h3>
+            <p class="pillar__desc">A structured library of lived experiences — indexed by cancer type, age, country, and identity. Not random blogs. Real stories, safely framed.</p>
+            <div class="pillar__features">
+              <div class="pillar__feature">
+                <svg class="pillar__feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Indexed by cancer type, life stage, and country</span>
+              </div>
+              <div class="pillar__feature">
+                <svg class="pillar__feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Clearly labeled as personal experience</span>
+              </div>
+              <div class="pillar__feature">
+                <svg class="pillar__feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Moderated for safety — no unsafe advice</span>
+              </div>
+              <div class="pillar__feature">
+                <svg class="pillar__feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Patient, caregiver, family perspectives</span>
+              </div>
+            </div>
+            <div style="margin-top: var(--space-lg);">
+              <a href="/stories/" class="card__link">
+                Read stories
+                <svg class="card__link-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="pillar pillar--access fade-in" style="transition-delay: 0.2s;">
+            <div class="pillar__icon" aria-hidden="true">🌍</div>
+            <h3 class="pillar__title">Identity &amp; Access</h3>
+            <p class="pillar__desc">The missing layer in cancer education. Addressing systemic gaps in care for Black women, Indigenous communities, rural patients, migrants, and more.</p>
+            <div class="pillar__features">
+              <div class="pillar__feature">
+                <svg class="pillar__feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Black women and breast cancer outcomes</span>
+              </div>
+              <div class="pillar__feature">
+                <svg class="pillar__feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Rural vs. urban access barriers</span>
+              </div>
+              <div class="pillar__feature">
+                <svg class="pillar__feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Trans &amp; nonbinary oncology navigation</span>
+              </div>
+              <div class="pillar__feature">
+                <svg class="pillar__feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Migrant language &amp; cultural barriers</span>
+              </div>
+            </div>
+            <div style="margin-top: var(--space-lg);">
+              <a href="/access/" class="card__link">
+                Explore access guides
+                <svg class="card__link-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="pillar pillar--navigate fade-in" style="transition-delay: 0.3s;">
+            <div class="pillar__icon" aria-hidden="true">🧭</div>
+            <h3 class="pillar__title">Navigation Guides</h3>
+            <p class="pillar__desc">The "2am utility." Step-by-step guides for when you need answers right now — how to get diagnosed, what to ask, how to advocate, how to survive the system.</p>
+            <div class="pillar__features">
+              <div class="pillar__feature">
+                <svg class="pillar__feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Step-by-step diagnosis navigation</span>
+              </div>
+              <div class="pillar__feature">
+                <svg class="pillar__feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Copy-paste question lists for appointments</span>
+              </div>
+              <div class="pillar__feature">
+                <svg class="pillar__feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Second opinion &amp; advocacy scripts</span>
+              </div>
+              <div class="pillar__feature">
+                <svg class="pillar__feature-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Financial survival resources by country</span>
+              </div>
+            </div>
+            <div style="margin-top: var(--space-lg);">
+              <a href="/navigate/" class="card__link">
+                Find your next step
+                <svg class="card__link-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FEATURE: TRANSLATOR DEEP DIVE ==================== -->
+    <section class="section section--alt" id="translator">
+      <div class="container">
+        <div class="feature-row fade-in">
+          <div class="feature-row__image">
+            <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=600&fit=crop&q=80" alt="Medical researcher reviewing pathology data in a clinical laboratory" loading="lazy" width="800" height="600">
+          </div>
+          <div class="feature-row__content">
+            <span class="feature-row__label">Flagship Tool</span>
+            <h2 class="feature-row__title">Pathology Report Translator</h2>
+            <p class="feature-row__desc">
+              We translate your report into plain language, explain what terms usually mean, and generate questions to ask your doctor. Private, instant, and free.
+            </p>
+            <div class="feature-row__list">
+              <div class="feature-row__list-item">
+                <svg class="feature-row__list-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Highlights staging, grading, and biomarker terms</span>
+              </div>
+              <div class="feature-row__list-item">
+                <svg class="feature-row__list-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Explains abbreviations and medical jargon</span>
+              </div>
+              <div class="feature-row__list-item">
+                <svg class="feature-row__list-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Generates a personalized doctor-question checklist</span>
+              </div>
+              <div class="feature-row__list-item">
+                <svg class="feature-row__list-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>100% private — runs entirely in your browser</span>
+              </div>
+              <div class="feature-row__list-item">
+                <svg class="feature-row__list-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Available in English, Spanish, and French</span>
+              </div>
+            </div>
+            <div style="margin-top: var(--space-xl);">
+              <a href="/tools/pathology-translator" class="btn btn--primary">
+                Use the Translator
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FEATURE: ENCYCLOPEDIA ==================== -->
+    <section class="section" id="encyclopedia">
+      <div class="container">
+        <div class="feature-row feature-row--reverse fade-in">
+          <div class="feature-row__image">
+            <img src="https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=800&h=600&fit=crop&q=80" alt="Doctor having a compassionate consultation with a patient about cancer treatment options" loading="lazy" width="800" height="600">
+          </div>
+          <div class="feature-row__content">
+            <span class="feature-row__label">Medical Encyclopedia</span>
+            <h2 class="feature-row__title">Cancer, Explained Without the Jargon</h2>
+            <p class="feature-row__desc">
+              Deep, readable guides to every cancer type, treatment, side effect, and medical term you'll encounter. Written for real people, cited from real evidence.
+            </p>
+            <div class="feature-row__list">
+              <div class="feature-row__list-item">
+                <svg class="feature-row__list-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Breast, lung, ovarian, cervical, colorectal, and more</span>
+              </div>
+              <div class="feature-row__list-item">
+                <svg class="feature-row__list-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Treatment guides: surgery, chemo, radiation, immunotherapy</span>
+              </div>
+              <div class="feature-row__list-item">
+                <svg class="feature-row__list-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Side effects, mental health, fertility, sexuality</span>
+              </div>
+              <div class="feature-row__list-item">
+                <svg class="feature-row__list-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Referenced from clinical guidelines and major cancer centers</span>
+              </div>
+            </div>
+            <div style="margin-top: var(--space-xl);">
+              <a href="/cancers/" class="btn btn--secondary">
+                Browse Cancer Types
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== STATS ==================== -->
+    <section class="section section--primary">
+      <div class="container">
+        <div class="stats fade-in">
+          <div class="stat">
+            <div class="stat__number">50+</div>
+            <div class="stat__label">Medical terms explained</div>
+          </div>
+          <div class="stat">
+            <div class="stat__number">3</div>
+            <div class="stat__label">Languages available</div>
+          </div>
+          <div class="stat">
+            <div class="stat__number">100%</div>
+            <div class="stat__label">Free, forever</div>
+          </div>
+          <div class="stat">
+            <div class="stat__number">0</div>
+            <div class="stat__label">Data sent to servers</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FEATURE: NAVIGATION ==================== -->
+    <section class="section" id="navigation-feature">
+      <div class="container">
+        <div class="feature-row fade-in">
+          <div class="feature-row__image">
+            <img src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&h=600&fit=crop&q=80" alt="Two people holding hands in a gesture of support and solidarity during a difficult time" loading="lazy" width="800" height="600">
+          </div>
+          <div class="feature-row__content">
+            <span class="feature-row__label">Navigation Guides</span>
+            <h2 class="feature-row__title">Your 2am Guide</h2>
+            <p class="feature-row__desc">
+              When it's late and you can't sleep, and the questions won't stop — these guides are here. Step-by-step, practical, grounded. You leave with next actions.
+            </p>
+            <div class="feature-row__list">
+              <div class="feature-row__list-item">
+                <svg class="feature-row__list-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>How to get diagnosed — step by step</span>
+              </div>
+              <div class="feature-row__list-item">
+                <svg class="feature-row__list-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Questions to copy and bring to your appointment</span>
+              </div>
+              <div class="feature-row__list-item">
+                <svg class="feature-row__list-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>How to handle dismissal and advocate for yourself</span>
+              </div>
+              <div class="feature-row__list-item">
+                <svg class="feature-row__list-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Caregiver scripts and family conversations</span>
+              </div>
+            </div>
+            <div style="margin-top: var(--space-xl);">
+              <a href="/navigate/" class="btn btn--secondary">
+                Find Your Next Step
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FEATURE: ACCESS ==================== -->
+    <section class="section section--alt" id="access-feature">
+      <div class="container">
+        <div class="feature-row feature-row--reverse fade-in">
+          <div class="feature-row__image">
+            <img src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?w=800&h=600&fit=crop&q=80" alt="Diverse group of women standing together in solidarity, representing different backgrounds and cultures" loading="lazy" width="800" height="600">
+          </div>
+          <div class="feature-row__content">
+            <span class="feature-row__label">Identity &amp; Access</span>
+            <h2 class="feature-row__title">The Missing Piece in Cancer Education</h2>
+            <p class="feature-row__desc">
+              Not politics. Reality. Cancer outcomes differ by race, geography, income, gender identity, and disability. We name the gaps and provide actionable guidance.
+            </p>
+            <div class="feature-row__list">
+              <div class="feature-row__list-item">
+                <svg class="feature-row__list-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Advocacy scripts for when you face bias or dismissal</span>
+              </div>
+              <div class="feature-row__list-item">
+                <svg class="feature-row__list-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Country-specific resource directories</span>
+              </div>
+              <div class="feature-row__list-item">
+                <svg class="feature-row__list-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Cultural sensitivity guides for clinicians</span>
+              </div>
+              <div class="feature-row__list-item">
+                <svg class="feature-row__list-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Disability, neurodiversity, and medical trauma awareness</span>
+              </div>
+            </div>
+            <div style="margin-top: var(--space-xl);">
+              <a href="/access/" class="btn btn--secondary">
+                Explore Access Guides
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TESTIMONIAL ==================== -->
+    <section class="section">
+      <div class="container">
+        <div class="testimonial fade-in">
+          <p class="testimonial__quote">
+            I sat in the parking lot after my appointment trying to read my pathology report. I didn't understand a single line. I wish something like this had existed then.
+          </p>
+          <p class="testimonial__author">— The feeling that inspired StopMyCancer</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CANCER TYPES PREVIEW ==================== -->
+    <section class="section section--alt" id="cancer-types">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__label">Medical Encyclopedia</span>
+          <h2 class="section__title">Cancer Types We Cover</h2>
+          <p class="section__desc">Plain-language, evidence-based guides. Each page includes symptoms, staging, treatment options, side effects, and questions to ask your doctor.</p>
+        </div>
+        <div class="cancer-grid">
+          <a href="/cancers/" class="cancer-card fade-in">
+            <div class="cancer-card__icon" aria-hidden="true">🎀</div>
+            <div class="cancer-card__content">
+              <div class="cancer-card__title">Breast Cancer</div>
+              <p class="cancer-card__desc">The most common cancer in women worldwide. Ductal, lobular, inflammatory, and more.</p>
+            </div>
+            <svg class="cancer-card__arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <a href="/cancers/" class="cancer-card fade-in" style="transition-delay: 0.05s;">
+            <div class="cancer-card__icon" aria-hidden="true">🫁</div>
+            <div class="cancer-card__content">
+              <div class="cancer-card__title">Lung Cancer</div>
+              <p class="cancer-card__desc">Non-small cell and small cell types. Screening, staging, and treatment pathways explained.</p>
+            </div>
+            <svg class="cancer-card__arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <a href="/cancers/" class="cancer-card fade-in" style="transition-delay: 0.1s;">
+            <div class="cancer-card__icon" aria-hidden="true">🔬</div>
+            <div class="cancer-card__content">
+              <div class="cancer-card__title">Ovarian Cancer</div>
+              <p class="cancer-card__desc">Often called the "silent cancer." Understanding symptoms, BRCA links, and treatment.</p>
+            </div>
+            <svg class="cancer-card__arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <a href="/cancers/" class="cancer-card fade-in" style="transition-delay: 0.15s;">
+            <div class="cancer-card__icon" aria-hidden="true">🩺</div>
+            <div class="cancer-card__content">
+              <div class="cancer-card__title">Cervical Cancer</div>
+              <p class="cancer-card__desc">HPV, screening, prevention, and treatment. Critical information for global health.</p>
+            </div>
+            <svg class="cancer-card__arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <a href="/cancers/" class="cancer-card fade-in" style="transition-delay: 0.2s;">
+            <div class="cancer-card__icon" aria-hidden="true">🧬</div>
+            <div class="cancer-card__content">
+              <div class="cancer-card__title">Colorectal Cancer</div>
+              <p class="cancer-card__desc">Rising in younger adults. Screening guidelines, MSI testing, and treatment explained.</p>
+            </div>
+            <svg class="cancer-card__arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <a href="/cancers/" class="cancer-card fade-in" style="transition-delay: 0.25s;">
+            <div class="cancer-card__icon" aria-hidden="true">🦋</div>
+            <div class="cancer-card__content">
+              <div class="cancer-card__title">Thyroid Cancer</div>
+              <p class="cancer-card__desc">Most common in younger women. Papillary, follicular, and other types explained.</p>
+            </div>
+            <svg class="cancer-card__arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+        <div style="text-align: center; margin-top: var(--space-2xl);">
+          <a href="/cancers/" class="btn btn--secondary">View All Cancer Types</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== GLOBAL & FREE ==================== -->
+    <section class="section">
+      <div class="container">
+        <div class="feature-row fade-in">
+          <div class="feature-row__image">
+            <img src="https://images.unsplash.com/photo-1609220136736-443140cffec6?w=800&h=600&fit=crop&q=80" alt="A globe symbolizing the worldwide reach and accessibility of cancer education resources" loading="lazy" width="800" height="600">
+          </div>
+          <div class="feature-row__content">
+            <span class="feature-row__label">Global &amp; Free</span>
+            <h2 class="feature-row__title">Built for the World</h2>
+            <p class="feature-row__desc">
+              Cancer doesn't respect borders. StopMyCancer is designed for low-bandwidth environments, multiple languages, and diverse health systems. Honest, fast, and free.
+            </p>
+            <div class="feature-row__list">
+              <div class="feature-row__list-item">
+                <svg class="feature-row__list-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Lightweight pages optimized for slow connections</span>
+              </div>
+              <div class="feature-row__list-item">
+                <svg class="feature-row__list-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>English, Spanish, and French — more coming</span>
+              </div>
+              <div class="feature-row__list-item">
+                <svg class="feature-row__list-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>No paywall — core safety info is always free</span>
+              </div>
+              <div class="feature-row__list-item">
+                <svg class="feature-row__list-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Print-friendly for clinic waiting rooms</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CTA BANNER ==================== -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-banner fade-in">
+          <h2>Ready to Understand Your Report?</h2>
+          <p>Paste your pathology report and get plain-language explanations in seconds. Free, private, and evidence-based.</p>
+          <a href="/tools/pathology-translator" class="btn btn--accent btn--lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+            Translate My Pathology Report
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TRUST PRINCIPLES ==================== -->
+    <section class="section section--alt" id="trust">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__label">Our Promise</span>
+          <h2 class="section__title">Three Rules That Protect Everything</h2>
+          <p class="section__desc">If a page doesn't do all three, it doesn't ship.</p>
+        </div>
+        <div class="card-grid" style="max-width: 1000px; margin: 0 auto;">
+          <div class="card fade-in">
+            <div class="card__body" style="text-align: center; padding: var(--space-2xl);">
+              <div class="card__icon card__icon--primary" style="margin: 0 auto var(--space-md); font-size: 32px; width: 64px; height: 64px;">
+                <span aria-hidden="true">1</span>
+              </div>
+              <h3 class="card__title">Tell the Truth</h3>
+              <p class="card__desc">Every claim is evidence-based and cited. No cure claims, no miracle products, no conspiracy content. Truth is non-negotiable.</p>
+            </div>
+          </div>
+          <div class="card fade-in" style="transition-delay: 0.1s;">
+            <div class="card__body" style="text-align: center; padding: var(--space-2xl);">
+              <div class="card__icon card__icon--secondary" style="margin: 0 auto var(--space-md); font-size: 32px; width: 64px; height: 64px;">
+                <span aria-hidden="true">2</span>
+              </div>
+              <h3 class="card__title">Reduce Panic</h3>
+              <p class="card__desc">Information should calm, not terrify. We explain, validate, and ground — never sensationalize, doom, or use fear as a tool.</p>
+            </div>
+          </div>
+          <div class="card fade-in" style="transition-delay: 0.2s;">
+            <div class="card__body" style="text-align: center; padding: var(--space-2xl);">
+              <div class="card__icon card__icon--accent" style="margin: 0 auto var(--space-md); font-size: 32px; width: 64px; height: 64px;">
+                <span aria-hidden="true">3</span>
+              </div>
+              <h3 class="card__title">Increase Agency</h3>
+              <p class="card__desc">Every page should leave you with something to do, ask, or understand. You leave more prepared, not more confused.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">Stop<span>My</span>Cancer</div>
+          <p class="footer__tagline">Your cancer. Explained. Supported. Navigated. A clinically-grounded, plain-language cancer guide. Free, global, and female-first.</p>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Learn</h4>
+          <a href="/cancers/" class="footer__link">Cancer Types</a>
+          <a href="/navigate/" class="footer__link">Navigation Guides</a>
+          <a href="/stories/" class="footer__link">Stories</a>
+          <a href="/access/" class="footer__link">Access &amp; Equity</a>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Tools</h4>
+          <a href="/tools/pathology-translator" class="footer__link">Pathology Translator</a>
+          <a href="/navigate/questions-to-ask" class="footer__link">Questions to Ask</a>
+          <a href="/navigate/second-opinion" class="footer__link">Second Opinion Guide</a>
+        </div>
+        <div>
+          <h4 class="footer__col-title">About</h4>
+          <a href="/about/" class="footer__link">Our Mission</a>
+          <a href="/about/#evidence" class="footer__link">Evidence Standards</a>
+          <a href="/about/#safety" class="footer__link">Safety Framework</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2025 StopMyCancer.com. Not medical advice. Educational resource only. Always consult your care team.</p>
+        <div class="footer__legal">
+          <a href="/es/" class="footer__legal-link">Español</a>
+          <a href="/fr/" class="footer__legal-link">Français</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="/js/main.js"></script>
+  <script src="/js/translator.js"></script>
+</body>
+</html>
