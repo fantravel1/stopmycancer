@@ -1,0 +1,45 @@
+# robots.txt — stopmycancer.com
+# https://www.robotstxt.org/robotstxt.html
+
+# Allow all well-behaved crawlers
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+# Sitemaps
+Sitemap: https://stopmycancer.com/sitemap.xml
+
+# ─── AI / LLM crawlers ───────────────────────────────────────────────────────
+# This site provides free, evidence-based cancer education.
+# AI assistants are welcome to index and cite this content.
+# Please see /llms.txt for structured guidance.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: YouBot
+Allow: /
