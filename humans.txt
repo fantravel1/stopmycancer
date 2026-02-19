@@ -1,0 +1,16 @@
+/* TEAM */
+  Site: StopMyCancer
+  URL: https://stopmycancer.com
+  Mission: Free, evidence-based cancer education for women and families worldwide.
+
+/* THANKS */
+  Schema.org — structured data vocabulary
+  Google Search Central — SEO best practices
+  NCCN, ASCO, ESMO — clinical guideline references
+
+/* SITE */
+  Last update: 2026-02-18
+  Language: English, Español, Français
+  Doctype: HTML5
+  IDE: Claude Code
+  Standards: WCAG 2.1 AA, Schema.org, Sitemaps Protocol

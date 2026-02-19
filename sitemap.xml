@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       HOMEPAGE
+  ══════════════════════════════════════════════════════════════════════════ -->
+  <url>
+    <loc>https://stopmycancer.com/</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://stopmycancer.com/"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://stopmycancer.com/es"/>
+    <xhtml:link rel="alternate" hreflang="fr"        href="https://stopmycancer.com/fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://stopmycancer.com/"/>
+  </url>
+
+  <url>
+    <loc>https://stopmycancer.com/es</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://stopmycancer.com/"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://stopmycancer.com/es"/>
+    <xhtml:link rel="alternate" hreflang="fr"        href="https://stopmycancer.com/fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://stopmycancer.com/"/>
+  </url>
+
+  <url>
+    <loc>https://stopmycancer.com/fr</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://stopmycancer.com/"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://stopmycancer.com/es"/>
+    <xhtml:link rel="alternate" hreflang="fr"        href="https://stopmycancer.com/fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://stopmycancer.com/"/>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       PATHOLOGY TRANSLATOR (Flagship Tool)
+  ══════════════════════════════════════════════════════════════════════════ -->
+  <url>
+    <loc>https://stopmycancer.com/tools/pathology-translator</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://stopmycancer.com/tools/pathology-translator"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://stopmycancer.com/es/tools/pathology-translator"/>
+    <xhtml:link rel="alternate" hreflang="fr"        href="https://stopmycancer.com/fr/tools/pathology-translator"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://stopmycancer.com/tools/pathology-translator"/>
+  </url>
+
+  <url>
+    <loc>https://stopmycancer.com/es/tools/pathology-translator</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://stopmycancer.com/tools/pathology-translator"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://stopmycancer.com/es/tools/pathology-translator"/>
+    <xhtml:link rel="alternate" hreflang="fr"        href="https://stopmycancer.com/fr/tools/pathology-translator"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://stopmycancer.com/tools/pathology-translator"/>
+  </url>
+
+  <url>
+    <loc>https://stopmycancer.com/fr/tools/pathology-translator</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://stopmycancer.com/tools/pathology-translator"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://stopmycancer.com/es/tools/pathology-translator"/>
+    <xhtml:link rel="alternate" hreflang="fr"        href="https://stopmycancer.com/fr/tools/pathology-translator"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://stopmycancer.com/tools/pathology-translator"/>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       CANCERS INDEX
+  ══════════════════════════════════════════════════════════════════════════ -->
+  <url>
+    <loc>https://stopmycancer.com/cancers</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://stopmycancer.com/cancers"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://stopmycancer.com/es/cancers"/>
+    <xhtml:link rel="alternate" hreflang="fr"        href="https://stopmycancer.com/fr/cancers"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://stopmycancer.com/cancers"/>
+  </url>
+
+  <url>
+    <loc>https://stopmycancer.com/es/cancers</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://stopmycancer.com/cancers"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://stopmycancer.com/es/cancers"/>
+    <xhtml:link rel="alternate" hreflang="fr"        href="https://stopmycancer.com/fr/cancers"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://stopmycancer.com/cancers"/>
+  </url>
+
+  <url>
+    <loc>https://stopmycancer.com/fr/cancers</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://stopmycancer.com/cancers"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://stopmycancer.com/es/cancers"/>
+    <xhtml:link rel="alternate" hreflang="fr"        href="https://stopmycancer.com/fr/cancers"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://stopmycancer.com/cancers"/>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       CANCER TYPE GUIDES (English only — no ES/FR equivalents yet)
+  ══════════════════════════════════════════════════════════════════════════ -->
+  <url>
+    <loc>https://stopmycancer.com/cancers/breast</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://stopmycancer.com/cancers/cervical</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://stopmycancer.com/cancers/colorectal</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://stopmycancer.com/cancers/lung</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://stopmycancer.com/cancers/ovarian</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://stopmycancer.com/cancers/thyroid</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       NAVIGATE
+  ══════════════════════════════════════════════════════════════════════════ -->
+  <url>
+    <loc>https://stopmycancer.com/navigate</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://stopmycancer.com/navigate"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://stopmycancer.com/es/navigate"/>
+    <xhtml:link rel="alternate" hreflang="fr"        href="https://stopmycancer.com/fr/navigate"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://stopmycancer.com/navigate"/>
+  </url>
+
+  <url>
+    <loc>https://stopmycancer.com/es/navigate</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://stopmycancer.com/navigate"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://stopmycancer.com/es/navigate"/>
+    <xhtml:link rel="alternate" hreflang="fr"        href="https://stopmycancer.com/fr/navigate"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://stopmycancer.com/navigate"/>
+  </url>
+
+  <url>
+    <loc>https://stopmycancer.com/fr/navigate</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://stopmycancer.com/navigate"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://stopmycancer.com/es/navigate"/>
+    <xhtml:link rel="alternate" hreflang="fr"        href="https://stopmycancer.com/fr/navigate"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://stopmycancer.com/navigate"/>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       STORIES
+  ══════════════════════════════════════════════════════════════════════════ -->
+  <url>
+    <loc>https://stopmycancer.com/stories</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://stopmycancer.com/stories"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://stopmycancer.com/es/stories"/>
+    <xhtml:link rel="alternate" hreflang="fr"        href="https://stopmycancer.com/fr/stories"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://stopmycancer.com/stories"/>
+  </url>
+
+  <url>
+    <loc>https://stopmycancer.com/es/stories</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://stopmycancer.com/stories"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://stopmycancer.com/es/stories"/>
+    <xhtml:link rel="alternate" hreflang="fr"        href="https://stopmycancer.com/fr/stories"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://stopmycancer.com/stories"/>
+  </url>
+
+  <url>
+    <loc>https://stopmycancer.com/fr/stories</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://stopmycancer.com/stories"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://stopmycancer.com/es/stories"/>
+    <xhtml:link rel="alternate" hreflang="fr"        href="https://stopmycancer.com/fr/stories"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://stopmycancer.com/stories"/>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       ACCESS & EQUITY
+  ══════════════════════════════════════════════════════════════════════════ -->
+  <url>
+    <loc>https://stopmycancer.com/access</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://stopmycancer.com/access"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://stopmycancer.com/es/access"/>
+    <xhtml:link rel="alternate" hreflang="fr"        href="https://stopmycancer.com/fr/access"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://stopmycancer.com/access"/>
+  </url>
+
+  <url>
+    <loc>https://stopmycancer.com/es/access</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://stopmycancer.com/access"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://stopmycancer.com/es/access"/>
+    <xhtml:link rel="alternate" hreflang="fr"        href="https://stopmycancer.com/fr/access"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://stopmycancer.com/access"/>
+  </url>
+
+  <url>
+    <loc>https://stopmycancer.com/fr/access</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://stopmycancer.com/access"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://stopmycancer.com/es/access"/>
+    <xhtml:link rel="alternate" hreflang="fr"        href="https://stopmycancer.com/fr/access"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://stopmycancer.com/access"/>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       ABOUT
+  ══════════════════════════════════════════════════════════════════════════ -->
+  <url>
+    <loc>https://stopmycancer.com/about</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://stopmycancer.com/about"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://stopmycancer.com/es/about"/>
+    <xhtml:link rel="alternate" hreflang="fr"        href="https://stopmycancer.com/fr/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://stopmycancer.com/about"/>
+  </url>
+
+  <url>
+    <loc>https://stopmycancer.com/es/about</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://stopmycancer.com/about"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://stopmycancer.com/es/about"/>
+    <xhtml:link rel="alternate" hreflang="fr"        href="https://stopmycancer.com/fr/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://stopmycancer.com/about"/>
+  </url>
+
+  <url>
+    <loc>https://stopmycancer.com/fr/about</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://stopmycancer.com/about"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://stopmycancer.com/es/about"/>
+    <xhtml:link rel="alternate" hreflang="fr"        href="https://stopmycancer.com/fr/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://stopmycancer.com/about"/>
+  </url>
+
+</urlset>

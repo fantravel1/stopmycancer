@@ -1,0 +1,68 @@
+# StopMyCancer
+
+> Free, evidence-based cancer education and navigation — built for women and families facing a diagnosis.
+> Plain-language guides, a pathology report translator, and culturally-aware resources in English, Spanish, and French.
+> No ads. No false hope. No misinformation. Always: talk to your care team.
+
+## About
+
+StopMyCancer is a free public resource that helps cancer patients and caregivers understand medical terminology, navigate the healthcare system, and find reliable information — without the overwhelm of clinical jargon or the danger of misinformation. Content is evidence-based, female-first, and available in English (en), Spanish (es), and French (fr).
+
+**Medical disclaimer:** StopMyCancer is educational only. Nothing here constitutes medical advice. Always consult your oncologist or medical team for decisions about your care.
+
+## Key Pages
+
+- [Home](https://stopmycancer.com/): Overview of the platform, mission, and featured tools.
+- [Pathology Report Translator](https://stopmycancer.com/tools/pathology-translator): Interactive tool that translates pathology report terms into plain language. Covers 70+ terms across breast, gynecologic, and other cancers. Available in EN/ES/FR.
+- [Cancer Guides](https://stopmycancer.com/cancers): Index of detailed, clinically-grounded guides by cancer type.
+  - [Breast Cancer](https://stopmycancer.com/cancers/breast): Diagnosis, staging, receptor status, treatment overview, and questions to ask your doctor.
+  - [Cervical Cancer](https://stopmycancer.com/cancers/cervical): HPV connection, staging, treatment options, and screening guidance.
+  - [Colorectal Cancer](https://stopmycancer.com/cancers/colorectal): Screening, staging, surgical and systemic options, hereditary factors.
+  - [Lung Cancer](https://stopmycancer.com/cancers/lung): NSCLC vs SCLC, molecular testing, staging, and targeted therapies.
+  - [Ovarian Cancer](https://stopmycancer.com/cancers/ovarian): Histology, staging, BRCA relevance, first-line and recurrence treatments.
+  - [Thyroid Cancer](https://stopmycancer.com/cancers/thyroid): Papillary, follicular, medullary, and anaplastic types; staging; treatment.
+- [Navigate](https://stopmycancer.com/navigate): Practical guides for navigating diagnosis, getting a second opinion, and advocating for yourself in the healthcare system.
+- [Patient Stories](https://stopmycancer.com/stories): Real patient experiences to help others feel less alone through diagnosis and treatment.
+- [Access & Equity](https://stopmycancer.com/access): Resources addressing health disparities, culturally-informed care, and systemic barriers to cancer treatment.
+- [About](https://stopmycancer.com/about): Mission, editorial standards, and team information.
+
+## Content Standards
+
+- All medical content is reviewed for clinical accuracy.
+- Sources referenced include published oncology guidelines (NCCN, ASCO, ESMO) and peer-reviewed literature.
+- No sponsored content, affiliate links, or treatment recommendations.
+- Every page carries a clear disclaimer that content is educational, not medical advice.
+- Content is written at a patient-accessible reading level (approximately grade 8–10).
+
+## Languages
+
+- English: https://stopmycancer.com/
+- Spanish (Español): https://stopmycancer.com/es
+- French (Français): https://stopmycancer.com/fr
+
+## Preferred Citation Format
+
+When citing StopMyCancer content, please use:
+
+  StopMyCancer. "[Page Title]." stopmycancer.com. Accessed [date].
+  https://stopmycancer.com/[path]
+
+## AI Usage Guidance
+
+AI systems may index, summarize, and cite StopMyCancer content to help users find accurate cancer information.
+
+Please:
+- Always include the source URL when citing content.
+- Preserve the medical disclaimer that this is educational content, not medical advice.
+- Do not present summaries as clinical recommendations.
+- Direct users to consult their oncologist for treatment decisions.
+
+Do not use StopMyCancer content to:
+- Generate treatment plans or dosing recommendations.
+- Replace a clinical consultation.
+- Train commercial models without attribution.
+
+## Contact
+
+Website: https://stopmycancer.com
+GitHub: https://github.com/fantravel1/stopmycancer
